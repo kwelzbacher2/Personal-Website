@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<!--Katherine Welzbacher, CSCI 1145, 11/13/16-->
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="icon" href="img/logo.png">
+		<title>The Big Announcement!</title>
+		<style>
+            @media only all and (min-width: 760px) {
+                body {
+                background-color:#e1e1ea;
+                background-image: url("img/grey-background.png");
+                background-size:cover;
+                }
+                h1 {
+                color: #3763ae;
+                text-align: center;
+                font-family:Viner Hand ITC, Lucida Console;
+                }
+                #title {
+                font-size: 4em;
+                color: #3763ae;
+                text-align: center;
+                font-family:Viner Hand ITC, Lucida Console;
+                position:relative;
+                }
+                p {
+                text-align: center;
+                width: 60%;
+                font-size: 1.1em;
+                margin: auto;
+                padding-top:65px;
+                font-family:Lucida Calligraphy, Book Antiqua;
+                }
+                #nav {
+                background-color: #3763ae;
+                color: #ffffff;
+                font-size: 1.5em;
+                height: 2em;
+                text-align: center;
+                font-family: Book Antiqua;
+                }
+                div li {
+                display: inline;
+                padding-right: 100px;
+                }
+                div ul {
+                list-style-type: none;
+                }
+                a {
+                text-decoration:none;
+                color: #ffffff;
+                }
+                a:hover {
+                color:#00ff00;
+                }
+                #move {
+                float:left;
+                width: 33%;
+                text-align:center;
+                }
+                #move img {
+                max-width: 100%;
+                height:auto;
+                }
+                #business {
+                float:right;
+                width: 33%;
+                text-align:center;
+                }
+                #business img {
+                max-width: 100%;
+                height:auto;
+                }
+                #baby {
+                width: 33%;
+                display:inline-block;
+                text-align:center;
+                }
+                #baby img{
+                max-width: 100%;
+                height:auto;
+                }
+                button {
+                display:block;
+                margin:auto;
+                text-align:center;
+                background-color:#31589b;
+                color:#ffffff;
+                height:50px;
+                width:150px;
+                font-family:Viner Hand ITC;
+                font-size:1.2em;
+                }
+                #logo {
+                position:absolute;
+                padding-left:2%;
+                max-width:100%;
+                height:auto;
+                }
+            }
+            @media (max-width:760px){
+                #logo {
+                display:none;
+                }
+                 body {
+                background-color:#e1e1ea;
+                background-image: url("img/grey-background.png");
+                background-size:cover;
+                }
+                h1 {
+                color: #3763ae;
+                text-align: center;
+                font-family:Viner Hand ITC, Lucida Console;
+                }
+                #title {
+			    font-size: 2em;
+			    color: #3763ae;
+			    text-align: center;
+ 			    font-family:Viner Hand ITC, Lucida Console;
+			    position:relative;
+			    }
+			    p {
+			    text-align: center;
+			    max-width:100%;
+			    font-size: 1em;
+			    margin: auto;
+			    padding-top:65px;
+			    font-family:Lucida Calligraphy, Book Antiqua;
+			    }
+			    #intro {
+			    padding-top:50px;
+			    position:relative;
+			    }
+			    #nav {
+			    background-color: #3763ae;
+                color: #ffffff;
+			    font-size: 1em;
+			    height: 5em;
+			    text-align: center;
+			    font-family: Book Antiqua;
+			    }
+			    div li {
+			    margin:auto;
+			    }
+			    div ul {
+			    list-style-type: none;
+                }
+                a {
+                text-decoration:none;
+                color: #ffffff;
+                }
+                a:hover {
+                color:#00ff00;
+                }
+                #move {
+                float:none;
+                width: 100%;
+                text-align:center;
+                }
+                #move img {
+                max-width: 100%;
+                height:auto;
+                }
+                #business {
+                float:none;
+                width: 100%;
+                text-align:center;
+                }
+                #business img {
+                max-width: 100%;
+                height:auto;
+                }
+                #baby {
+                width: 100%;
+                display:inline-block;
+                text-align:center;
+                }
+                #baby img{
+                max-width: 100%;
+                height:auto;
+                }
+                button {
+                display:block;
+                margin:auto;
+                text-align:center;
+                background-color:#31589b;
+                color:#ffffff;
+                height:50px;
+                width:150px;
+                font-family:Viner Hand ITC;
+                font-size:1.2em;
+                }
+            }
+		</style>
+	</head>
+	<body>
+		<img id="logo" src="img/logo.png" alt="logo" title="Logo" />
+		<div id="title">The Welzbacher's Big Announcement!</div>
+		<div id="nav">
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="guess.html">Take a Guess</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</div>
+		<h1>Jordan and Katie have something to share with you!</h1>
+		<div id="move">
+			<h2>Moving?</h2>
+			<img id="moving" src="img/Optimized-moving.png" alt="boxes" title="Moving">
+			<p>Have we decided to move elsewhere? Have new job prospects call us to another city?</p>
+			<button><a href="moving.html">Moving?</a></button>
+		</div>
+		<div id="baby">
+			<h2>Baby?</h2>
+			<img id="babyclip" src="img/Optimized-baby.png" alt="baby" title="Baby">
+			<p>Have we decided to expand our family? Is it time to change to add one more to our home?</p>
+			<button><a href="baby.html">Baby?</a></button>
+		</div>
+		<div id="business">
+			<h2>Starting Own Business?</h2>
+			<img id="computer" src="img/Optimized-computer.png" alt="computer" title="Computer">
+			<p>Have we decided to venture on our own to make a business? Are we excited to work for ourselves?</p>
+			<button><a href="business.html">Business?</a></button>
+		</div>
+
+	</body>
+</html>

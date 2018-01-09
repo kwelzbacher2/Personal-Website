@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!--Katherine Welzbacher, CSCI 1145, 11/13/16-->
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="icon" href="img/logo.png">
+		<title>The Big Announcement!</title>
+		<style>
+            @media only all and (min-width: 760px) {
+                body {
+                background-color:#e1e1ea;
+                background-image: url("img/grey-background.png");
+                background-size:cover;
+                }
+                h1 {
+                color: #3763ae;
+                text-align: center;
+                font-family:Viner Hand ITC, Lucida Console;
+                }
+                #title {
+                font-size: 4em;
+                color: #3763ae;
+                text-align: center;
+                font-family:Viner Hand ITC, Lucida Console;
+                position:relative;
+                }
+                p {
+                text-align: center;
+                font-size: 1.1em;
+                margin: auto;
+                padding-top:65px;
+                font-family:Lucida Calligraphy, Book Antiqua;
+                }
+                #nav {
+                background-color: #3763ae;
+                color: #ffffff;
+                font-size: 1.5em;
+                height: 2em;
+                text-align: center;
+                font-family: Book Antiqua;
+                }
+                div li {
+                display: inline;
+                padding-right: 100px;
+                }
+                div ul {
+                list-style-type: none;
+                }
+                button {
+                display:block;
+                margin:auto;
+                text-align:center;
+                background-color:#31589b;
+                color:#ffffff;
+                height:50px;
+                width:150px;
+                font-family:Viner Hand ITC;
+                font-size:1.2em;
+                clear:both;
+                }
+                a {
+                text-decoration:none;
+                color: #ffffff;
+                }
+                a:hover {
+                color:#00ff00
+                }
+                #sorry {
+                float:left;
+                width:45%;
+                padding-left:10%;
+                }
+                #logo {
+                position:absolute;
+                padding-left:2%;
+                }
+                #house {
+                padding-left:5%;
+                float:right;
+                width:40%;
+                }
+                #house img {
+                max-width:100;
+                height:auto;
+                }
+            }
+            @media (max-width:760px) {
+              #logo {
+              display:none;
+              }
+              body {
+			  background-color:#e1e1ea;
+ 			  background-image: url("img/grey-background.png");
+ 			  background-size:cover;
+			  }
+			  h1 {
+			  color: #3763ae;
+			  text-align: center;
+			  font-family:Viner Hand ITC, Lucida Console;
+			  }
+			  #title {
+			  font-size: 2em;
+			  color: #3763ae;
+			  text-align: center;
+ 			  font-family:Viner Hand ITC, Lucida Console; 
+			  position:relative;
+			  }
+			  p {
+			  text-align: center;
+			  max-width:100%;
+			  font-size: 1em;
+			  margin: auto;
+			  padding-top:65px;
+			  font-family:Lucida Calligraphy, Book Antiqua;
+			  }
+			  #nav {
+			  background-color: #3763ae;
+              color: #ffffff;
+			  font-size: 1em;
+			  height: 5em;
+			  text-align: center;
+			  font-family: Book Antiqua;
+			  }
+			  div li {
+			  margin:auto;
+			  }
+			  div ul {
+			  list-style-type: none;
+			  }
+			  button {
+			  display:block;
+			  margin:auto;
+			  text-align:center;
+			  background-color:#31589b;
+			  color:#ffffff;
+			  height:50px;
+			  width:150px;
+			  font-family:Viner Hand ITC;
+			  font-size:1.2em;
+			  clear:both;
+			  }
+			  a {
+			  text-decoration:none;
+			  color: #ffffff;
+			  }
+			  a:hover {
+			  color:#00ff00
+			  }
+              #house img {
+              max-width:100%;
+              height:auto;
+              margin: auto;
+              position:relative;
+              }
+              #sorry {
+              width:100%;
+              margin:auto;
+              }
+            }
+		</style>
+	</head>
+	<body>
+		<img id="logo" src="img/logo.png" alt="logo" title="Logo" />
+		<div id="title">The Welzbacher's Big Announcement!</div>
+		<div id="nav">
+			<ul>
+				<li><a href="http://citwebdev.cscc.edu/~kwelzbacher/csci1145/project7/mobile/home">Home</a></li>
+				<li><a href="http://citwebdev.cscc.edu/~kwelzbacher/csci1145/project7/mobile/about">About Us</a></li>
+				<li><a href="http://citwebdev.cscc.edu/~kwelzbacher/csci1145/project7/mobile/guess">Take a Guess</a></li>
+				<li><a href="http://citwebdev.cscc.edu/~kwelzbacher/csci1145/project7/mobile/contact">Contact Us</a></li>
+			</ul>
+		</div>    
+		<h1>Jordan and Katie have something to share with you!</h1>
+		<div id="house">
+			<img src="img/Optimized-house.jpg" alt="House" title="Our House">
+		</div>
+        <div id="sorry">
+			<h1>Sorry but...</h2>
+			<p>As much as we love to travel, we are currently not in a place to move. We just moved to Columbus in February 2016
+				and are enjoying the city. We purchased our first home here and are working hard to update it to be the way we would
+				want it to be. So we have just put a little too much effort into our current home to start thinking of moving now, 
+				but I guess you never know what the future holds.</p><br>
+			<button><a href="http://citwebdev.cscc.edu/~kwelzbacher/csci1145/project7/mobile/guess">Try Again!</a></button>
+		</div>
+	</body>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!--Katherine Welzbacher, CSCI 1145, 11/1316-->
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="icon" href="img/logo.png">
+		<title>The Big Announcement!</title>
+		<style>
+            @media only all and (min-width: 760px) {
+                body {
+                background-color:#e1e1ea;
+                background-image: url("img/grey-background.png");
+                background-size:cover;
+                }
+                h1 {
+                color: #3763ae;
+                text-align: center;
+                font-family:Viner Hand ITC, Lucida Console;
+                }
+                #title {
+                font-size: 4em;
+                color: #3763ae;
+                text-align: center;
+                font-family:Viner Hand ITC, Lucida Console;
+                position:relative;
+                }
+                #nav {
+                background-color: #3763ae;
+                color: #ffffff;
+                font-size: 1.5em;
+                height: 2em;
+                text-align: center;
+                font-family: Book Antiqua;
+                }
+                div li {
+                display: inline;
+                padding-right: 100px;
+                }
+                div ul {
+                list-style-type: none;
+                }
+                a {
+                text-decoration:none;
+                color: #ffffff;
+                }
+                a:hover {
+                color:#00ff00
+                }
+                #contact {
+                text-align:center;
+                font-family:Lucida Calligraphy, Book Antiqua;
+                }
+                #logo {
+                position:absolute;
+                padding-left:2%;
+                }
+                .field {
+                left:50%;
+                position:fixed;
+                }
+                span {
+                position:fixed;
+                right:50%;
+                padding-right:3px;
+                }
+            }
+            @media (max-width:760px) {
+              #logo {
+              display:none;
+              }
+              body {
+			  background-color:#e1e1ea;
+ 			  background-image: url("img/grey-background.png");
+ 			  background-size:cover;
+			  }
+			  h1 {
+			  color: #3763ae;
+			  text-align: center;
+			  font-family:Viner Hand ITC, Lucida Console;
+			  }
+			  #title {
+			  font-size: 2em;
+			  color: #3763ae;
+			  text-align: center;
+ 			  font-family:Viner Hand ITC, Lucida Console;
+			  position:relative;
+			  }
+			  #nav {
+			  background-color: #3763ae;
+              color: #ffffff;
+			  font-size: 1em;
+			  height: 5em;
+			  text-align: center;
+			  font-family: Book Antiqua;
+			  }
+			  div li {
+			  margin:auto;
+			  }
+			  div ul {
+			  list-style-type: none;
+			  }
+			  .field {
+              left:20%;
+              position:relative;
+              }
+              span {
+              text-align:center
+              }
+			 a {
+             text-decoration:none;
+             color: #ffffff;
+             }
+             a:hover {
+             color:#00ff00
+             }
+            }
+		</style>
+	</head>
+	<body>
+		<img id="logo" src="img/logo.png" alt="logo" title="Logo" />
+		<div id="title">The Welzbacher's Big Announcement!</div>
+		<div id="nav">
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="guess.html">Take a Guess</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</div>
+		<h1>Jordan and Katie have something to share with you!</h1>
+		<div id="contact">
+			<h2>Contact Us!</h2>
+			<form action="">
+				<div><span>First Name: </span> <input class="field" type="text" name="Firstname"></div><br>
+				<div><span>Last Name: </span><input class="field" type="text" name="Lastname"></div><br>
+				<div><span>Email: </span><input class="field" type="text" name="email"></div><br>
+				<p>Comments: </p>
+				<textarea rows="8" cols="50" name="comment" id="comment"></textarea><br>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</body>
+</html>
